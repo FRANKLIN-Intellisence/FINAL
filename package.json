@@ -1,7 +1,7 @@
 {
   "homepage": "https://FRANKLIN-Intellisence.github.io/final/",
   "name": "app",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
