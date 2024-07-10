@@ -1,18 +1,18 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "./pages/Landingpage.jsx";
-import Desc from './pages/DescriptionPage.jsx'
-import Cart from './pages/CartPage.jsx'
-import Checkout from './pages/CheckoutPage.jsx'
+import LandingPage from "./pages/Landingpage.jsx";
+import DescriptionPage from './pages/DescriptionPage.jsx'
+import CartPage from './pages/CartPage.jsx'
+import CheckoutPage from './pages/CheckoutPage.jsx'
 
 const App = () => {
   return (
     <div className="pt-[7rem]">
       <BrowserRouter>
         <Routes>
-          <Route exact path="/" element={< Home/>}/>
-          <Route exact path="/Description" element={<Desc />}/>
-          <Route exact path="/CartPage" element={<Cart />} />
-          <Route exact path="/CheckoutPage" element={<Checkout/ >} />
+          <Route exact path="/" element={< LandingPage/>}/>
+          <Route exact path="/Description" element={<DescriptionPage />}/>
+          <Route exact path="/CartPage" element={<CartPage />} />
+          <Route exact path="/CheckoutPage" element={<CheckoutPage/ >} />
         </Routes>
       </BrowserRouter>
     </div>
